@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let label = UILabel()
-        label.frame = CGRect(x: 150, y: 150, width: 100, height: 100)
-        label.text = "TEST"
+        label.frame = CGRect(x: 25, y: 11, width: 80, height: 20)
+        label.text = "■■■■"
         self.view.addSubview(label)
     }
 
